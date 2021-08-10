@@ -17,13 +17,20 @@ function Home() {
 }
 
 {/* write an <About> component here */}
+function About() {
+
+  return(
+  <div id= "about">This is The About div</div>
+  )
+}
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
+      <Home></Home>
+      <About></About>
       {/* add your <About> component here */}
     </div>
   );
